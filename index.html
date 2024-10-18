@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Country Cards</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100">
+    <header class="flex justify-between items-center mb-8 bg-white p-6">
+      <h1 class="text-3xl font-bold">Where in the world?</h1>
+      <button>Dark Mode</button>
+    </header>
+
+    <div class="px-8">
+      <div class="mb-6 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+        <div>
+          <input
+            type="text"
+            placeholder="Search for a country..."
+            class="w-full p-4 rounded shadow bg-white"
+          />
+        </div>
+
+        <div>
+          <select class="p-4 rounded shadow bg-white w-full">
+            <option value="">Filter by Region</option>
+            <option value="Africa">Africa</option>
+            <option value="America">America</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="Oceania">Oceania</option>
+          </select>
+        </div>
+      </div>
+
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+      >
+        <!-- Germany Card -->
+        <div class="bg-white rounded shadow">
+          <div class="w-full h-48 overflow-hidden mb-4">
+            <img
+              src="image/germany.png"
+              alt="Germany Flag"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="px-6">
+            <h2 class="text-xl font-bold mb-2">Germany</h2>
+            <p><strong>Population:</strong> 81,770,900</p>
+            <p><strong>Region:</strong> Europe</p>
+            <p><strong>Capital:</strong> Berlin</p>
+          </div>
+        </div>
+
+        <!-- United States Card -->
+        <div class="bg-white rounded shadow">
+          <div class="w-full h-48 overflow-hidden mb-4">
+            <img
+              src="image/usa.png"
+              alt="United States Flag"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="px-6">
+            <h2 class="text-xl font-bold mb-2">United States of America</h2>
+            <p><strong>Population:</strong> 323,947,000</p>
+            <p><strong>Region:</strong> Americas</p>
+            <p><strong>Capital:</strong> Washington, D.C.</p>
+          </div>
+        </div>
+
+        <!-- Brazil Card -->
+        <div class="bg-white rounded shadow">
+          <div class="w-full h-48 overflow-hidden mb-4">
+            <img
+              src="image/brazilia.png"
+              alt="Brazil Flag"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="px-6">
+            <h2 class="text-xl font-bold mb-2">Brazil</h2>
+            <p><strong>Population:</strong> 206,135,893</p>
+            <p><strong>Region:</strong> Americas</p>
+            <p><strong>Capital:</strong> Brasilia</p>
+          </div>
+        </div>
+
+        <!-- Iceland Card -->
+        <div class="bg-white rounded shadow">
+          <div class="w-full h-48 overflow-hidden mb-4">
+            <img
+              src="image/iceland.png"
+              alt="Iceland Flag"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="px-6">
+            <h2 class="text-xl font-bold mb-2">Iceland</h2>
+            <p><strong>Population:</strong> 334,300</p>
+            <p><strong>Region:</strong> Europe</p>
+            <p><strong>Capital:</strong> Reykjavik</p>
+          </div>
+        </div>
+
+        <!-- Afghanistan Card -->
+        <div class="bg-white rounded shadow">
+          <div class="w-full h-48 overflow-hidden mb-4">
+            <img
+              src="image/afghanistan.png"
+              alt="Afghanistan Flag"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="px-6">
+            <h2 class="text-xl font-bold mb-2">Afghanistan</h2>
+            <p><strong>Population:</strong> 27,657,145</p>
+            <p><strong>Region:</strong> Asia</p>
+            <p><strong>Capital:</strong> Kabul</p>
+          </div>
+        </div>
+
+        <!-- Aland Islands Card -->
+        <div class="bg-white rounded shadow">
+          <div class="w-full h-48 overflow-hidden mb-4">
+            <img
+              src="image/aland.png"
+              alt="Aland Islands Flag"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="px-6">
+            <h2 class="text-xl font-bold mb-2">Aland Islands</h2>
+            <p><strong>Population:</strong> 28,875</p>
+            <p><strong>Region:</strong> Europe</p>
+            <p><strong>Capital:</strong> Mariehamn</p>
+          </div>
+        </div>
+
+        <!-- Albania Card -->
+        <div class="bg-white rounded shadow">
+          <div class="w-full h-48 overflow-hidden mb-4">
+            <img
+              src="image/albania.png"
+              alt="Albania Flag"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="px-6">
+            <h2 class="text-xl font-bold mb-2">Albania</h2>
+            <p><strong>Population:</strong> 2,886,026</p>
+            <p><strong>Region:</strong> Europe</p>
+            <p><strong>Capital:</strong> Tirana</p>
+          </div>
+        </div>
+
+        <!-- Algeria Card -->
+        <div class="bg-white rounded shadow">
+          <div class="w-full h-48 overflow-hidden mb-4">
+            <img
+              src="image/algeria.png"
+              alt="Algeria Flag"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="px-6">
+            <h2 class="text-xl font-bold mb-2">Algeria</h2>
+            <p><strong>Population:</strong> 40,400,000</p>
+            <p><strong>Region:</strong> Africa</p>
+            <p><strong>Capital:</strong> Algiers</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
